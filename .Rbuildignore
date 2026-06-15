@@ -1,0 +1,6 @@
+^\.github$
+^data-raw$
+^.*\.Rcheck$
+^.*\.tar\.gz$
+^dist$
+^\.DS_Store$

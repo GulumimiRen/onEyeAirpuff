@@ -1,0 +1,31 @@
+citHeader("To cite the pressure waveform used by onEyeAirpuff, use:")
+
+citEntry(
+  entry = "Article",
+  title = "Development and validation of a correction equation for Corvis tonometry",
+  author = c(
+    person("Akram A.", "Joda"),
+    person("Mir Mohi Sefat", "Shervin"),
+    person("Daniel", "Kook"),
+    person("Ahmed", "Elsheikh")
+  ),
+  journal = "Computer Methods in Biomechanics and Biomedical Engineering",
+  volume = "19",
+  number = "9",
+  pages = "943--953",
+  year = "2016",
+  doi = "10.1080/10255842.2015.1077515",
+  url = "https://doi.org/10.1080/10255842.2015.1077515",
+  text = paste(
+    "Joda AAM, Shervin MMS, Kook D, Elsheikh A.",
+    "Development and validation of a correction equation for Corvis tonometry.",
+    "Computer Methods in Biomechanics and Biomedical Engineering.",
+    "2016;19(9):943-953.",
+    "https://doi.org/10.1080/10255842.2015.1077515"
+  )
+)
+
+citFooter(paste(
+  "The on_eye_digitized_smooth data derive from Figure 2b",
+  "(On eye curve) in the reference above."
+))
