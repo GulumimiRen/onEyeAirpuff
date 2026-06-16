@@ -1,8 +1,8 @@
 Package: onEyeAirpuff
-Title: On-Eye Air Puff Pressure Lookup
-Version: 0.1.0
+Title: Corneal Air Puff Pressure Lookup
+Version: 0.2.0
 Authors@R: person("RQ", email = "rq@example.com", role = c("aut", "cre"))
-Description: Lookup on-eye air puff pressure (mmHg) from time after puff onset
+Description: Lookup corneal air puff pressure (mmHg) from time after puff onset
     (milliseconds) using split monotonic PCHIP interpolation on digitized
     clinical data.
 License: MIT + file LICENSE

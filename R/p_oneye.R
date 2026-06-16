@@ -1,7 +1,7 @@
-#' On-eye air puff pressure lookup
+#' Corneal air puff pressure lookup
 #'
 #' Returns air puff pressure on the cornea (mmHg) at time `t` (milliseconds
-#' after puff onset). Times outside 5–26 ms or non-finite values return 0.
+#' after puff onset). Times outside 0-30 ms or non-finite values return 0.
 #'
 #' @param t Numeric vector of times in milliseconds.
 #' @return Numeric vector of pressures in mmHg, same length as `t`.

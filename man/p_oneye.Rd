@@ -2,7 +2,7 @@
 % Please edit documentation in R/p_oneye.R
 \name{p_oneye}
 \alias{p_oneye}
-\title{On-eye air puff pressure lookup}
+\title{Corneal air puff pressure lookup}
 \usage{
 p_oneye(t)
 }
@@ -14,7 +14,7 @@ Numeric vector of pressures in mmHg, same length as \code{t}.
 }
 \description{
 Returns air puff pressure on the cornea (mmHg) at time \code{t} (milliseconds
-after puff onset). Times outside 5–26 ms or non-finite values return 0.
+after puff onset). Times outside 0-30 ms or non-finite values return 0.
 }
 \examples{
 p_oneye(17.5)

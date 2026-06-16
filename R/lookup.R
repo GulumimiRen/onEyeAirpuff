@@ -1,4 +1,4 @@
-make_p_oneye_lookup <- function(dig_smooth, t_min = 5, t_max = 26,
+make_p_oneye_lookup <- function(dig_smooth, t_min = 0, t_max = 30,
                                 method = c("monoH.FC", "linear")) {
   method <- match.arg(method)
   ord <- order(dig_smooth$t_ms)

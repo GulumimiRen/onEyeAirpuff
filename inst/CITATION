@@ -1,4 +1,69 @@
-citHeader("To cite the pressure waveform used by onEyeAirpuff, use:")
+citHeader("To cite source studies used by onEyeAirpuff, use:")
+
+citEntry(
+  entry = "Article",
+  title = paste(
+    "Simulation of Air Puff Tonometry Test Using Arbitrary",
+    "Lagrangian-Eulerian (ALE) Deforming Mesh for Corneal Material",
+    "Characterisation"
+  ),
+  author = c(
+    person("Osama", "Maklad"),
+    person("Ashkan", "Eliasy"),
+    person("Kai-Jung", "Chen"),
+    person("Vassilios", "Theofilis"),
+    person("Ahmed", "Elsheikh")
+  ),
+  journal = "International Journal of Environmental Research and Public Health",
+  volume = "17",
+  number = "1",
+  pages = "54",
+  year = "2020",
+  doi = "10.3390/ijerph17010054",
+  url = "https://doi.org/10.3390/ijerph17010054",
+  text = paste(
+    "Maklad O, Eliasy A, Chen K-J, Theofilis V, Elsheikh A.",
+    "Simulation of Air Puff Tonometry Test Using Arbitrary",
+    "Lagrangian-Eulerian (ALE) Deforming Mesh for Corneal Material",
+    "Characterisation.",
+    "International Journal of Environmental Research and Public Health.",
+    "2020;17(1):54.",
+    "https://doi.org/10.3390/ijerph17010054"
+  )
+)
+
+citEntry(
+  entry = "Article",
+  title = paste(
+    "Introduction and Clinical Validation of an Updated Biomechanically",
+    "Corrected Intraocular Pressure bIOP (v2)"
+  ),
+  author = c(
+    person("Ashkan", "Eliasy"),
+    person("Bernardo T.", "Lopes"),
+    person("Junjie", "Wang"),
+    person("Ahmed", "Abass"),
+    person("Riccardo", "Vinciguerra"),
+    person("Paolo", "Vinciguerra"),
+    person("Fang-jun", "Bao"),
+    person("Ahmed", "Elsheikh")
+  ),
+  journal = "Current Eye Research",
+  volume = "48",
+  number = "4",
+  pages = "382--391",
+  year = "2023",
+  doi = "10.1080/02713683.2022.2162087",
+  url = "https://doi.org/10.1080/02713683.2022.2162087",
+  text = paste(
+    "Eliasy A, Lopes BT, Wang J, Abass A, Vinciguerra R,",
+    "Vinciguerra P, Bao F-J, Elsheikh A.",
+    "Introduction and Clinical Validation of an Updated Biomechanically",
+    "Corrected Intraocular Pressure bIOP (v2).",
+    "Current Eye Research. 2023;48(4):382-391.",
+    "https://doi.org/10.1080/02713683.2022.2162087"
+  )
+)
 
 citEntry(
   entry = "Article",
@@ -24,8 +89,3 @@ citEntry(
     "https://doi.org/10.1080/10255842.2015.1077515"
   )
 )
-
-citFooter(paste(
-  "The on_eye_digitized_smooth data derive from Figure 2b",
-  "(On eye curve) in the reference above."
-))
